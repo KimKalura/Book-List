@@ -1,6 +1,6 @@
-let inputElem = document.getElementById("shopping-input")
-let buttonElem = document.getElementById("shopping-button")
-let listenElem = document.getElementById("shopping-ul")
+let inputElem = document.getElementById("adding-input")
+let buttonElem = document.getElementById("adding-button")
+let listenElem = document.getElementById("adding-ul")
 
 
 buttonElem.addEventListener("click", addElementToList)
