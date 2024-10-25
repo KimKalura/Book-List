@@ -1,0 +1,70 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url('fairytale-scene-coming-out-book.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  color: white;
+  font-family: Papyrus, fantasy;
+  text-align: center;
+  margin-bottom: 0;          
+  padding-bottom: 0;       
+}
+
+p, li {
+  color: white;
+  font-family: Papyrus, fantasy;
+  text-align: center;  
+}
+
+button {
+  color: white;
+  background: #162938; 
+  border-color: none;
+  padding: 6px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: Papyrus, fantasy;
+}
+
+input {
+  width: 60%;
+  padding: 6px;
+  border-radius: 10px;
+  border: white;
+ margin-left: 40px; 
+}
+
+.icon { /*pt icon carte*/
+  display: flex;
+  justify-content: center; 
+  align-items: center;       
+  height: 100%;              
+  color: white;
+  font-size: 2rem;  
+  margin: 0;                 
+  padding: 0;                
+}
+
+li {
+  list-style: none; 
+  background: black;  
+  padding: 6px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  width: max-content;  
+  border-radius: 10px;
+}
+
+#adding-div {
+  width: max-content;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 20px;
+  padding: 20px;
+}
